@@ -1,0 +1,121 @@
+body{
+    font-family: montserrat;
+    font-weight: bold;
+    
+}
+#title{
+    background-color: #ff4c68;
+    color:#fff;
+}
+h1{
+    font-family: montserrat;
+    font-size: 4.2rem;
+    line-height: 1.5;
+
+}
+.container-fluid{
+    padding:3% 15% 7%;
+}
+.navbar{
+    padding-bottom: 4.2rem;
+    
+}
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    
+}
+.nav-item{
+    padding:0 18px;
+    font-size: 1.2rem;
+
+}
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+.title-img{
+    transform: rotate(25deg);
+    margin-left: 100px;
+    position:absolute;
+    
+    
+}
+p{
+    font-family: "ubuntu";
+    color:#8f8f8f;
+}
+#features{
+    padding:7% 15%;
+    text-align:center;
+    background-color: #fff;
+    position:relative;
+    
+}
+.feature-box{
+    padding:30px;
+}
+.icon{
+    color:#ef8172;
+    margin-bottom:20px;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+#testimonials{
+    text-align: center;
+    padding:7% 15%;
+    background-color:#ef8172;
+    color:#fff;
+}
+.dog-img{
+    width: 200px;
+    border-radius: 100px;
+    margin-top:50px;
+}
+#press{
+    background-color:#ef8172;
+    text-align:center;
+   }
+.press-logo{
+    margin-bottom:100px;
+    padding:10px;
+}
+#pricing{
+    text-align:center;
+    padding:150px;
+}
+.pricing-card{
+    padding:3% 2%;
+}
+@media(max-width:1300px)
+{
+    .title-img{
+        position:static;
+        transform: rotate(0);
+    }
+    h1{
+        text-align: center;
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    text-align:center;
+    padding:7% 15%;
+}
+#cta h3{
+    color:#fff;
+    font-size: 50px;
+}
+
+#footer{
+    text-align:center;
+    padding:4% 10%;
+}
+.ftr-icon{
+    padding:20px;
+    color:black;
+}
+.ftr-para{
+    margin-top:50px;
+}
